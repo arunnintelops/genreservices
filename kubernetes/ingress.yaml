@@ -1,0 +1,18 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  namespace: GenreService
+  name: Genre-ingress
+spec:
+  ingressClassName: traefik
+  rules:
+  - host: Genre.example.com 
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: GenreService
+            port:
+              number: 8004
