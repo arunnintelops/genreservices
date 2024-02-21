@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: GenreService
+  labels:
+    app: GenreService
+  name: GenreService
+spec:
+  ports:
+  
+    - protocol: TCP
+      port: 8004
+      targetPort: 8004
+   
+  selector:
+    app: GenreService
+  type: ClusterIP

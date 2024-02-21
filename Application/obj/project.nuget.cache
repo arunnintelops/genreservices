@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "Jw1U8qIPRdubejwdIyvrkTvTbJ/BzwF47/RH3i6nfow4VuZkpDezcQ24IE/9jgvQiGPmNTj1q9/PChITR11ibg==",
+  "success": true,
+  "projectFilePath": "/home/aohammedazharuddin/Desktop/intelops/book-store-backend/GenreService/Application/Application.csproj",
+  "expectedPackageFiles": [
+    "/home/aohammedazharuddin/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/home/aohammedazharuddin/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "/home/aohammedazharuddin/.nuget/packages/mediatr/12.1.1/mediatr.12.1.1.nupkg.sha512",
+    "/home/aohammedazharuddin/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/home/aohammedazharuddin/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/home/aohammedazharuddin/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/home/aohammedazharuddin/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.1/microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "/home/aohammedazharuddin/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/home/aohammedazharuddin/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/home/aohammedazharuddin/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  namespace: GenreService
+  name: GenreService
+  labels:
+    app: GenreService
+spec:
+  selector:
+    matchLabels:
+      app: GenreService
+  template:
+    metadata:
+      labels:
+        app: GenreService
+        name: GenreService
+    spec:
+      containers:
+        - name: GenreService
+          image: MrAzharuddin/book-store-backend/GenreService
+          imagePullPolicy: Always
+          ports:
+        
+          - containerPort: 8004
+            name: http
+        
+        
+          readinessProbe:
+            tcpSocket:
+              port: http
+            initialDelaySeconds: 5
+            periodSeconds: 15
+          livenessProbe:
+            tcpSocket:
+              port: http
+            initialDelaySeconds: 15
+            periodSeconds: 30
+        
